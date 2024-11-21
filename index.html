@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Ceci</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://kit.fontawesome.com/817271d1f2.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+
+    
+
+    
+<!-- inicia navbar offcanvas-->
+  <section class="nav"> 
+    <nav class="navBar navbar-expand-md" id="navB">
+        <div class="container">
+           
+          <button class="navbar-toggler p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <svg viewBox="0 0 100 80" width="30" height="30">
+              <rect width="100" height="10"></rect>
+              <rect y="30" width="100" height="10"></rect>
+              <rect y="60" width="100" height="10"></rect>
+            </svg>
+            
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark w-80" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header ">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            
+            <div class="offcanvas-body">
+              <ul class="navbar-nav">
+                
+                <li class="nav-item">
+                  <a class="nav-link"  href="#sobreMi"  >Sobre mí</a>
+                </li>
+                <li  class="nav-item">
+                  <a class="nav-link "  href="#habilidades " >Habilidades</a>
+                </li>
+                <li  class="nav-item">
+                  <a class="nav-link"  href="#proyectos" >Proyectos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"  href="#certificados" >Certificados</a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+          <div class="languages ">
+            <a class="nav-link rotate" href="#sobreMi">
+              <button class="lang ">ES</button>
+            </a>
+            <a class="nav-link rotate" href="#aboutMe">
+              <button class="lang ">EN</button>
+            </a>
+          </div>  
+        </div>
+      </nav>
+       
+  </section> 
+  <!--fin navbar offcanvas -->
+
+      <!-- inicia sobre mi -->
+      <section id="sobreMi" >
+        <div class="fotoPresentacion ">
+          <img src="./img/FOTO-CECI-CV.jpg"/>
+          <p>Mi nombre es Cecilia Vadillo <br><br>Soy Desarrolladora Front-End</p>
+        </div>
+
+        <div class="contactos">
+
+          <div class="iconos">
+
+            <a href="https://github.com/ceciva">
+              <i class="fa-brands fa-github fa-2xl scale rotate"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/cecilia-vadillo/">
+              <i class="fa-brands fa-linkedin fa-2xl icons scale rotate"></i>
+            </a>
+
+            <a href="mailto:cecivadillo@gmail.com">
+              <i class="fa-regular fa-envelope fa-2xl icons scale rotate"></i>
+            </a>
+
+          </div> 
+
+          <a href="./src/CV-CECILIA-VADILLO.pdf" download="CV-Cecilia-Vadillo.pdf">
+            <button class="cv scale">Descargar CV</button>
+          </a>
+      </div>
+
+      <p class="white">Dedicada desde hace 37 años a enseñar tecnología a niños, decidí expandir mi horizonte y me desafié a estudiar cosas nuevas para mi  y a aprender a desarrollar aplicaciones móviles y web. Aprendí Html, css, sass, git, github, firebase, bootstrap, javascript y react-js. Hoy busco colaborar en proyectos que me permitan seguir creciendo y creando aplicaciones intuitivas, que resuelvan problemas y que se adapten a los diferentes dispositivos. 
+      </p>
+      </section> 
+      <!-- fin sobre mi -->
+
+      <!-- inicia habilidades -->
+      
+      
+      <section id="habilidades"> 
+        <h2>Habilidades</h2>  
+        <section class="habil">
+          <img src="./img/html.png" class="icon fadeInUp scale" alt="icono html">
+          <img src="./img/css.png" class="icon fadeInUp scale" alt="icono css">
+          <img src="./img/iconoJavaScript.png" class="icon fadeInUp scale" alt="icono javascript">
+          <img src="./img/iconoReact.png" class="icon fadeInUp scale" alt="icono react">  
+          <img src="./img/sass.png" class="icon fadeInUp scale" alt="icono sass">  
+          <img src="./img/git.png" class="icon fadeInUp scale " alt="icono git">
+          <img src="./img/github.png" class="icon fadeInUp scale" alt="icono github">
+          <img src="./img/bootstrap.png" class="icon fadeInUp scale" alt="icon bootstrap">
+          <img src="./img/firebase.png" class="icon fadeInUp scale" alt="icon firebase">
+        </section>
+      </section> 
+      <!-- fin habilidades -->
+
+      <!-- inicia proyectos -->
+      
+      <section id="proyectos">
+        <h2>Proyectos</h2>
+        <h3>Desarrollo Web</h3>
+        <div class="project">
+          <figure>
+            <img src="./img/autoTecnica.webp" class="proyecto fadeInUp scale " alt="foto página autotécnica">
+            <div class="capa">
+              <h3>Autotécnica Tv</h3>
+              <h4>Proyecto real</h4>
+              <p class=" text-center">Autotécnica TV es un programa de televisión especializado en el mundo automotriz que se destaca por su enfoque didáctico y su capacidad para explicar conceptos complejos de manera sencilla. Conducido por el Ingeniero Alberto Garibaldi, el programa ofrece una amplia variedad de contenidos, desde las últimas novedades en tecnología automotriz hasta consejos prácticos para el cuidado del vehículo. </p>
+              <button>
+                <a href="http://www.autotecnicatv.com.ar/">Visita el sitio</a> 
+              </button>
+            </div>
+          </figure>
+
+          <figure>
+            
+            <img src="./img/rodneyKing.webp" class="proyecto fadeInUp " alt="foto página Rodney King">
+            <div class="capa">
+              <h3>Rodney King beating video</h3>
+              <h4>Proyecto real</h4>
+              <p class=" text-center">El caso de Rodney King es un hito en la historia de los derechos civiles en Estados Unidos. Gracias a la valentía de George Holliday, quien grabó el incidente con su videocámara, el mundo fue testigo de la brutalidad policial sufrida por King. Este video, uno de los primeros en volverse viral, desencadenó una ola de protestas y debates que marcaron una época.<br> Esta es la página oficial. </p>
+              <button>
+                <a href="http://www.rodneykingvideo.com/">Visita el sitio</a> 
+              </button>
+            </div>
+          </figure>
+
+          <figure>
+            <img src="./img/todoBonelli.webp" class="proyecto fadeInUp " alt="foto Netlify Bonelli">
+            
+            <div class="capa">
+              <h3>Todo Florencia Bonelli</h3>
+              <h4>Proyecto ficticio</h4>
+              <p class=" text-center">Este fué el proyecto final de React JS que presenté en Coderhouse. Es un e-commerce que vende libros. <br> Utilicé: HTML, CSS, REACT JS y FIREBASE</p>
+              <button>
+                <a href="https://entrega-react-vadillo.netlify.app/">Ver proyecto</a> 
+              </button>
+            </div>
+          </figure>
+
+          <figure>
+            <img src="./img/extraTalle.webp" class="proyecto fadeInUp" alt="foto Netlify Extra Talle"> 
+
+            <div class="capa">
+              <h3>Extra Talle</h3>
+              <h4>Proyecto real</h4>
+              <p class=" text-center">Proyecto realizado con un equipo de estudiante de Coderhouse como beneficio por estar en el top 10. Hubo un equipo UX/UI y uno de desarrolladores, del cuál formé parte. Lamentablemente no está publicado, por lo que los links de los botones no están activos.<br>Utilizamos: HTML, SASS, BOOTSTRAP y JS</p>
+              <button>
+                <a href="https://extratallexl.netlify.app/">Ver proyecto</a> 
+              </button>
+            </div>
+          </figure>
+        </div>
+      </section>    
+      <!-- fin proyectos -->
+
+      <!-- inicia certificados -->
+      <section id="certificados">
+
+      <h2>Certificados</h2>
+
+      <div id="carouselExampleIndicators" class="carousel slide fadeInUp " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          
+
+        </div>
+        <div class="carousel-inner borderSlide">
+          <div class="carousel-item active">
+            <img src="./img/DESARROLLO-WEB.png" class="d-block w-100 " alt="certificado desarrollo web">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/JAVASCRIPT.png" class="d-block w-100" alt="certificado Javascript">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/react.png" class="d-block w-100" alt="certificado react">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/certFrontendCarreraEsp.png" class="d-block w-100" alt="certificado carrera front end">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/DESARROLLO-APPS.png" class="d-block w-100" alt="certificado desarrollo apps">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      
+      </section> 
+      <!-- fin certificados -->
+
+      <!-- inicia footer -->
+  <footer class="footer">
+    <img class="w-80" src="./img/separador.png" alt="linea separadora" />
+      
+    <div class="footer-menu">
+
+        <ul class="footer-lista">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#sobreMi">Sobre mí</a>
+            </li>
+            <li  class="nav-item">
+              <a class="nav-link "  href="#habilidades">Habilidades</a>
+            </li>
+            <li  class="nav-item">
+              <a class="nav-link"  href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="#certificados">Certificados</a>
+            </li>
+        </ul>
+
+      </div>
+    <div class="footer-abajo">
+      <div class="direccion">
+        
+          <i class="fa-sharp fa-solid fa-location-dot scale rotate "></i > Pilar, Buenos Aires, Argentina
+          <a href= "mailto:cecivadillo@gmail.com">
+            <i>cecivadillo@gmail.com</i>
+          </a>  
+      </div>
+
+      <div class="contactos">
+
+        <a href="https://github.com/ceciva">
+          <i class="fa-brands fa-github fa-2xl scale rotate"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/cecilia-vadillo/">
+          <i class="fa-brands fa-linkedin fa-2xl icons scale rotate"></i>
+        </a>
+
+        <a href="mailto:cecivadillo@gmail.com">
+          <i class="fa-regular fa-envelope fa-2xl icons scale rotate"></i>
+        </a>
+
+      </div> 
+      
+      <img class="w-80" src="./img/separador.png" alt="linea separadora" />
+      
+      <p class="copy">2024 - Cecilia Vadillo</p>
+    </div>
+  </footer>
+
+      <!-- fin footer -->
+
+<!-- Bootstrap JS (con Popper.js) -->
+      
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script src="./js/portfolio.js"></script>
+  </body>
+</html>

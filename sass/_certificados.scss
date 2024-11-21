@@ -1,0 +1,17 @@
+#certificados{
+   
+    .carousel{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        width: 60vw;
+        align-items: center;
+        z-index: -1;
+
+        .borderSlide{
+            
+            border-radius: 20px;
+            
+            box-shadow: 0 4px 8px 0 #77E4C8, 0 6px 20px 0 #36C2CE;
+        }
+    }
+}

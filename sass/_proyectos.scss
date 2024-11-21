@@ -1,0 +1,126 @@
+#proyectos{
+    .project{
+     
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+
+        @media(min-width:768px){
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          align-content: space-between;
+
+        }
+
+        figure{
+          
+          position: relative;
+          overflow: hidden;
+          width: 80vw;
+          border-radius: 5px;
+          height: auto;
+          padding-left: 5vw;
+          @media(min-width: 768px){
+            width: 40vw;
+            height: auto;
+            flex-shrink: 0;
+            padding-left: 0%;
+          } 
+        }       
+            img{
+                width: 75vw;
+                margin-top: 5vh;
+                margin-bottom: 5vh;
+                border-radius: 5%;
+                box-shadow: 0 4px 8px  #77E4C8, 0 6px 20px #36C2CE;
+                
+                @media(min-width:768px){
+                    width: 40vw;
+                }
+            }  
+            .capa{
+                   margin-top: 5vh;
+                   border-radius: 5%;
+                   display: flex;
+                   flex-direction: column;
+                   justify-content: center;
+                   align-items: center;
+                   position: absolute;
+                   top: 0;
+                   background-color: $dMint;
+                   transition: all 600ms ease-in-out;
+                   opacity: 0;
+                   visibility: hidden;
+                   width: 75vw; 
+                   height: 90%;
+                   
+                   @media(min-width:768px){
+                    width: 40vw;
+                    height:85%;
+                   }
+                   
+                  h3{
+                    color: $violet;
+                    font-size: 1.6rem;
+
+                    @media(min-width:768px){
+                      font-size: 1.2rem;
+                    }
+                  }
+                  h4{
+                    color: $violet;
+                    font-size: 1rem;
+
+                    @media(min-width:768px){
+                      font-size: 0.8rem;
+                    }
+                  }
+
+                  p{
+                    width: 90%;
+                    @include text(0.8rem, 400,normal, black, normal);
+
+                    @media(min-width:768px){
+                     @include text(0.5rem, 600,normal, black, normal);
+                     
+                    }
+                     //(size, weight, style, colour, letterspacing)
+                  
+                  }
+
+              
+           }
+  
+          figure:hover > .capa {
+            opacity: 0.9;
+            visibility: visible;
+            cursor: pointer;
+            
+          }
+
+          
+          button {
+            margin-top: 1vh;
+            width: 20vw;
+            background-color: $violet;
+            box-shadow: none;
+            border-style: none;
+            border-radius: 5px;
+            font-size: small;
+            @media(min-width:768px){
+              margin-top: 4vh;
+              width: 20vw;
+              font-size: larger;
+             
+            }  
+            a{
+              font-weight: 700;
+            }
+          }
+    }         
+} 
+
+
+
+

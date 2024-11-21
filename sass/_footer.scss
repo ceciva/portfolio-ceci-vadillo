@@ -1,0 +1,83 @@
+.footer{
+    width:90vw;
+    margin-top: 5vh;
+    img{
+        width: 85vw;
+    }
+    .footer-menu{
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-content:space-around;
+            align-items:center;
+            padding-top: 10px;
+            list-style: none;
+
+            li{
+                
+                text-align: right;
+                a{
+                    // @include text(1rem, 400,normal,$white, normal)
+                    // (size, weight, style, colour, letterspacing)
+                    // }
+                    @include text(0.8rem, 400, normal, $dMint, normal);
+                    
+                    @media(min-width:768px){
+                        
+                        @include text(1.5rem, 600, normal , $dMint, normal);
+                        
+                    }
+                }
+                :hover{
+                    color: $lViolet;
+                }
+            } 
+        }
+    }
+    .contactos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:10px;
+        margin-bottom: 5vh;
+        margin-top: 5vh;
+        
+        
+    }
+    i{
+        color: $dMint;
+        margin-left: 4vw;
+        
+    }
+    .scale:hover{
+        transform:scale(1.5);
+        cursor: pointer;
+        transition: transform 1s;
+        color: $lViolet;
+    }
+    .rotate:hover{
+        rotate: 360deg;
+        cursor: pointer;
+        transition: 1s;
+        color: $lViolet;
+        
+    }
+
+    .direccion{
+        margin-top: 5vh;
+        color:$dMint;
+        text-align: center;
+        size: 0.8rem;
+       
+    }
+    .copy{
+        color:$dMint;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        letter-spacing: 0.5rem;
+        color:$dMint;
+        text-decoration: none;
+    }
+}

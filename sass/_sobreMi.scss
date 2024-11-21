@@ -1,0 +1,105 @@
+#sobreMi{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    justify-content: center;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+
+    .fotoPresentacion{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        @media(min-width:768px){
+            display: flex;
+            flex-direction: row;
+        }
+
+        
+    }
+        img{
+            width: 20vw;
+            height: auto;
+            border-style: none;
+            border-radius: 5%;
+            box-shadow: 0 4px 8px  #77E4C8, 0 6px 20px #36C2CE;
+            margin: 0vh 5vw 2vh 5vw;
+            
+            
+            @media(min-width:768px){
+                width:10vw;
+            }
+        }
+        
+        
+        
+     
+    p{
+        @include text(1.5rem, 600,normal,$dMint,0.5rem );
+        width: 90%;
+        text-align: center;
+        @media(min-width:768px){
+            text-align: left;
+            margin-left: 5vw;
+        }
+        
+    }
+    .white{
+        @include text(1rem, 500,normal,$white,0.3rem );
+        align-self: center;
+        text-align: center;
+        width: 90%;
+        line-height: 2;
+        
+    }   
+    // p{
+    // @include text(1rem, 400,normal,$white, normal)
+    // (size, weight, style, colour, letterspacing)
+    // }
+    .contactos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 5vh;
+        margin-top: 5vh;
+        
+        i{
+            color: $dMint;
+            margin-left: 4vw;
+        }
+        .scale:hover{
+            transform:scale(1.5);
+            cursor: pointer;
+            transition: transform 1s;
+            color: $lViolet;
+        }
+        .rotate:hover{
+            rotate: 360deg;
+            cursor: pointer;
+            transition: 1s;
+            color: $lViolet;
+            
+        }
+        a{
+            @include text(1rem,300,normal,$dMint, normal);
+            button{
+                background-color: black;
+                color: $dMint;
+                border-style: solid;
+                border-color: $dMint;
+                border-radius: 10px;
+                padding: 2px 4px;
+                
+                
+            }
+            .cv:hover{
+                border-color: $lViolet;
+            }
+        }
+    }
+    
+}
