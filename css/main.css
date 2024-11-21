@@ -373,7 +373,7 @@ body {
   }
 }
 #proyectos .project .capa {
-  margin-top: 5vh;
+  margin-top: o\0 vh;
   border-radius: 5%;
   display: flex;
   flex-direction: column;
@@ -386,7 +386,7 @@ body {
   opacity: 0;
   visibility: hidden;
   width: 75vw;
-  height: 90%;
+  height: 100%;
 }
 @media (min-width: 768px) {
   #proyectos .project .capa {
@@ -394,26 +394,26 @@ body {
     height: 85%;
   }
 }
-#proyectos .project .capa h3 {
+#proyectos .project .capa .h3ficha {
   color: #4535C1;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 @media (min-width: 768px) {
-  #proyectos .project .capa h3 {
+  #proyectos .project .capa .h3ficha {
     font-size: 1.2rem;
   }
 }
-#proyectos .project .capa h4 {
+#proyectos .project .capa .h4ficha {
   color: #4535C1;
   font-size: 1rem;
 }
 @media (min-width: 768px) {
-  #proyectos .project .capa h4 {
+  #proyectos .project .capa .h4ficha {
     font-size: 0.8rem;
   }
 }
 #proyectos .project .capa p {
-  width: 90%;
+  width: 92%;
   font-family: Roboto;
   line-height: normal;
   font-size: 0.8rem;

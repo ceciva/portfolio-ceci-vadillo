@@ -40,7 +40,7 @@
                 }
             }  
             .capa{
-                   margin-top: 5vh;
+                   margin-top: o\0vh;
                    border-radius: 5%;
                    display: flex;
                    flex-direction: column;
@@ -53,22 +53,22 @@
                    opacity: 0;
                    visibility: hidden;
                    width: 75vw; 
-                   height: 90%;
+                   height: 100%;
                    
                    @media(min-width:768px){
                     width: 40vw;
                     height:85%;
                    }
                    
-                  h3{
+                  .h3ficha{
                     color: $violet;
-                    font-size: 1.6rem;
+                    font-size: 1.2rem;
 
                     @media(min-width:768px){
                       font-size: 1.2rem;
                     }
                   }
-                  h4{
+                  .h4ficha{
                     color: $violet;
                     font-size: 1rem;
 
@@ -78,7 +78,7 @@
                   }
 
                   p{
-                    width: 90%;
+                    width: 92%;
                     @include text(0.8rem, 400,normal, black, normal);
 
                     @media(min-width:768px){
