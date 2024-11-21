@@ -82,7 +82,7 @@
                     @include text(0.8rem, 400,normal, black, normal);
 
                     @media(min-width:768px){
-                     @include text(0.5rem, 600,normal, black, normal);
+                     @include text(1rem, 600,normal, black, normal);
                      
                     }
                      //(size, weight, style, colour, letterspacing)
