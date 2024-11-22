@@ -3,7 +3,7 @@
      
         display: flex;
         flex-direction: column;
-        background-color: black;
+        background-color: $smoke;
 
         @media(min-width:768px){
           flex-direction: row;
@@ -24,7 +24,7 @@
           @media(min-width: 768px){
             width: 40vw;
             height: auto;
-            flex-shrink: 0;
+            flex-shrink:0;
             padding-left: 0%;
           } 
         }       
@@ -40,7 +40,7 @@
                 }
             }  
             .capa{
-                   margin-top: o\0vh;
+                   margin-top: 0vh;
                    border-radius: 5%;
                    display: flex;
                    flex-direction: column;
@@ -57,7 +57,7 @@
                    
                    @media(min-width:768px){
                     width: 40vw;
-                    height:85%;
+                    height:100%;
                    }
                    
                   .h3ficha{
@@ -65,7 +65,10 @@
                     font-size: 1.2rem;
 
                     @media(min-width:768px){
-                      font-size: 1.2rem;
+                      font-size: 1rem;
+                    }
+                    @media(min-width: 992px){
+                      font-size: 1.5rem;
                     }
                   }
                   .h4ficha{
@@ -75,13 +78,16 @@
                     @media(min-width:768px){
                       font-size: 0.8rem;
                     }
+                    @media(min-width: 992px){
+                      font-size: 1.2rem;
+                    }
                   }
 
                   p{
                     width: 92%;
                     @include text(0.8rem, 400,normal, black, normal);
 
-                    @media(min-width:768px){
+                    @media(min-width:992px){
                      @include text(1rem, 600,normal, black, normal);
                      
                     }
@@ -109,7 +115,7 @@
             border-radius: 5px;
             font-size: small;
             @media(min-width:768px){
-              margin-top: 4vh;
+              margin-top: 0.5vh;
               width: 20vw;
               font-size: larger;
              

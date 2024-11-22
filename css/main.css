@@ -34,7 +34,7 @@ h3 {
 
 body {
   padding-top: 10vh;
-  background-color: black;
+  background-color: rgb(29, 27, 27);
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -89,7 +89,7 @@ body {
   display: flex;
   width: 100vw;
   height: 10vh;
-  background-color: black;
+  background-color: rgb(29, 27, 27);
   justify-content: center;
 }
 @media (min-width: 768px) {
@@ -307,7 +307,7 @@ body {
   margin: 5vh 15vw 5vh 15vw;
   justify-content: space-evenly;
   align-content: space-between;
-  background-color: black;
+  background-color: rgb(29, 27, 27);
 }
 #habilidades .habil .icon {
   width: 20vw;
@@ -334,7 +334,7 @@ body {
 #proyectos .project {
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: rgb(29, 27, 27);
 }
 @media (min-width: 768px) {
   #proyectos .project {
@@ -373,7 +373,7 @@ body {
   }
 }
 #proyectos .project .capa {
-  margin-top: o\0 vh;
+  margin-top: 0vh;
   border-radius: 5%;
   display: flex;
   flex-direction: column;
@@ -391,7 +391,7 @@ body {
 @media (min-width: 768px) {
   #proyectos .project .capa {
     width: 40vw;
-    height: 85%;
+    height: 100%;
   }
 }
 #proyectos .project .capa .h3ficha {
@@ -400,7 +400,12 @@ body {
 }
 @media (min-width: 768px) {
   #proyectos .project .capa .h3ficha {
-    font-size: 1.2rem;
+    font-size: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  #proyectos .project .capa .h3ficha {
+    font-size: 1.5rem;
   }
 }
 #proyectos .project .capa .h4ficha {
@@ -410,6 +415,11 @@ body {
 @media (min-width: 768px) {
   #proyectos .project .capa .h4ficha {
     font-size: 0.8rem;
+  }
+}
+@media (min-width: 992px) {
+  #proyectos .project .capa .h4ficha {
+    font-size: 1.2rem;
   }
 }
 #proyectos .project .capa p {
@@ -422,7 +432,7 @@ body {
   letter-spacing: normal;
   color: black;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   #proyectos .project .capa p {
     font-family: Roboto;
     line-height: normal;
@@ -449,7 +459,7 @@ body {
 }
 @media (min-width: 768px) {
   #proyectos .project button {
-    margin-top: 4vh;
+    margin-top: 0.5vh;
     width: 20vw;
     font-size: larger;
   }
